@@ -1,0 +1,23 @@
+[
+  {
+    "titulo": "Álgebra Elemental",
+    "autor": "Baldor",
+    "nivel": "Secundaria",
+    "formatos": ["PDF"],
+    "enlace": "https://drive.google.com/example1"
+  },
+  {
+    "titulo": "Física para Bachillerato",
+    "autor": "SEP",
+    "nivel": "Preparatoria",
+    "formatos": ["PDF", "EPUB"],
+    "enlace": "https://drive.google.com/example2"
+  },
+  {
+    "titulo": "Literatura Mexicana",
+    "autor": "Varios",
+    "nivel": "Universidad",
+    "formatos": ["EPUB"],
+    "enlace": "https://drive.google.com/example3"
+  }
+]
