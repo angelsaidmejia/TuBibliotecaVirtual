@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo | Tu Biblioteca Virtual</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Inter&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Libre Baskerville', serif;
+      background-color: #fdfaf5;
+      color: #333;
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+    h1 { font-family: 'Inter', sans-serif; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2rem;
+    }
+    th, td {
+      border-bottom: 1px solid #ccc;
+      padding: 0.5rem;
+      text-align: left;
+    }
+    th {
+      background-color: #eee;
+      font-family: 'Inter', sans-serif;
+    }
+    .descargar {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Catálogo de Libros</h1>
+  <p>Explora nuestra colección de libros educativos en formato PDF y EPUB. Se agregan nuevas obras cada semana.</p>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Título</th>
+        <th>Autor</th>
+        <th>Nivel</th>
+        <th>Formato</th>
+        <th>Descargar</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-libros">
+      <!-- Aquí se insertan automáticamente las filas desde el JSON -->
+    </tbody>
+  </table>
 
+  <!-- Script que llena la tabla -->
+  <script src="js/catalogo.js"></script>
+</body>
+</html>
